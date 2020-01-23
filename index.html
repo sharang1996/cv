@@ -1,74 +1,63 @@
-<html>
+<!DOCTYPE html>
+<html lang="">
 
 <head>
-    <meta charset="utf-8">
-    <title>Sharang's personal site</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+  <title>Sharang Gupta</title>
 </head>
 
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td><img src=profile.jpg alt="sharang profile picture"></td>
-            <td>
-                <h1><a href="https://www.linkedin.com/in/sharang-gupta-b8399bb4/">Sharang Gupta</a></h1>
-                <p><em>an <strong>avid programmer </strong>looking to explore new domains in technology</em></p>
-                <p>I am a python developer who is currently exploring web development to become a fullstack developer.</p>
-            </td>
-        </tr>
-    </table>
+  <div class="topcontainer">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img" />
+    <h1>I'm Sharang.</h1>
+    <h2>A <span id="underline">Pro</span>grammer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img" />
+  </div>
 
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profilepic" src="images/profile.png" alt="sharang profile picture">
+      <h2>Hello.</h2>
+      <p class="intro">I am <em>an <strong>avid programmer </strong>looking to explore new domains in technology</em></p>
+      <p class="intro">I am a python developer who is currently exploring web development to become a fullstack developer.</p>
+    </div>
     <hr>
-    <h3>Education</h3>
-    <ul>
-        <li>AVM</li>
-        <li>Pace Junior Science College</li>
-        <li>Symbiosis Institute of Technology</li>
-    </ul>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="python-img" src="images/python.png" alt="" style="width:250px;height:250px">
+        <h3>Python</h3>
+        <p class="code-skill-description">Web Scraping using python requests and beautifulsoup.</p>
+      </div>
+      <div class="skill-row">
+        <img class="mongo-img" src="images/mongo.jpeg" alt="" >
+        <h3>MongoDB</h3>
+        <p class="code-skill-description">My choice of database, non-relational, quick and scalable</p>
+      </div>
+    </div>
     <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>I’m currently available for hire.</h3>
+      <p>If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
+    </div>
+    <a class="btn" href="mailto:sharanggupta96@gmail.com">CONTACT ME</a>
+  </div>
 
-    <h3>Work Experience</h3>
-    <ol>
-        <li>Symantec Corporation</li>
-        <li>Bombardier Transportation</li>
-        <li>Karza Technologies</li>
-    </ol>
-    <hr>
-    <h3>Skills</h3>
-    <table>
-        <tr>
-            <td>
-                <table cellspacing="10">
-                    <tr>
-                        <td>python</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
 
-                    <tr>
-                        <td>java</td>
-                        <td>⭐⭐</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table cellspacing="10">
-                    <tr>
-                        <td>mongodb</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/sharang-gupta-b8399bb4/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/sharang1996">GitHub</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright">© 2020 Sharang Gupta.</p>
+  </div>
 
-                    <tr>
-                        <td>mysql</td>
-                        <td>⭐⭐</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-
-    </table>
-
-    <hr>
-    <h3>contact details</h3>
-    <a href=contact.html>contact me</a>
 </body>
 
 </html>
