@@ -57,13 +57,13 @@ a:hover{
 .mongo-img {
   width: 25%;
   float: right;
-  margin-left: 30px;
+  margin-left: 80px;
 }
 
 .python-img {
   width: 25%;
   float: left;
-  margin-right: 30px;
+  margin-right: 70px;
 }
 
 #underline {
